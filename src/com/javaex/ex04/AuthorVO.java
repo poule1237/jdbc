@@ -1,5 +1,6 @@
 package com.javaex.ex04;
 
+//데이터 담는 전용박스
 public class AuthorVO {
 
 	// 필드
@@ -9,17 +10,15 @@ public class AuthorVO {
 
 	// 생성자
 	public AuthorVO() {
-
 	}
 
 	public AuthorVO(int authorId, String authorName, String authorDesc) {
-		super();
 		this.authorId = authorId;
 		this.authorName = authorName;
 		this.authorDesc = authorDesc;
 	}
-	// 메소드 gs
 
+	// 메소드gs
 	public int getAuthorId() {
 		return authorId;
 	}
